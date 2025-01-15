@@ -8,7 +8,7 @@ function Categories({ setActiveCategory, categories, activeCategory }) {
         onChange={e => setActiveCategory(e.target.value)}
         className='jh-categories-select'
       >
-        <option value=''>---</option>
+        <option value=''>Choose your category</option>
         {categories.map(cat => (
           <option key={cat} value={cat}>
             {cat}

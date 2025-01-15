@@ -1,8 +1,38 @@
 .jh-categories {
-	text-align: center;
-	padding-top: 30px;
-}
-
-.jh-categories-select {
-	margin-right: 15px;
-}
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	gap: 20px;
+	
+  }
+  
+  .jh-categories-select {
+	padding: 10px;
+	border: 2px solid #4CAF50; /* Match the border color with Cart.js */
+	border-radius: 5px;
+	background-color: #f9f9f9; /* Match the background color with Cart.js */
+	color: #333; /* Match the text color with Cart.js */
+	font-size: 13px;
+  }
+  
+  .jh-categories-select option {
+	padding: 10px;
+	background-color: #fff; /* Match the option background color with Cart.js */
+	color: #333; /* Match the option text color with Cart.js */
+  }
+  
+  .jh-categories button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50; /* Match the button background color with Cart.js */
+	color: #fff; /* Match the button text color with Cart.js */
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  .jh-categories button:hover {
+	background-color: #45a049; /* Match the button hover color with Cart.js */
+  }

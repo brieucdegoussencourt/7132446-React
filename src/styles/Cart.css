@@ -1,19 +1,31 @@
 .jh-cart {
-	color: white;
-	background-color: #31b572;
+	color: #333; /* Match the text color with Categories.css */
+	background-color: #f9f9f9; /* Match the background color with Categories.css */
 	padding: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 300px;
-}
-
-.jh-cart-add-button {
+	border: 2px solid #4CAF50; /* Match the border color with Categories.css */
+	border-radius: 5px;
+  }
+  
+  .jh-cart-add-button {
 	margin-left: 32px;
 	cursor: pointer;
-}
-
-.jh-cart-toggle-button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50; /* Match the button background color with Categories.css */
+	color: #fff; /* Match the button text color with Categories.css */
+	font-size: 16px;
+  }
+  
+  .jh-cart-add-button:hover {
+	background-color: #45a049; /* Match the button hover color with Categories.css */
+  }
+  
+  .jh-cart-toggle-button {
 	background: none;
 	outline: none;
 	border: none;
@@ -21,15 +33,83 @@
 	cursor: pointer;
 	align-self: self-start;
 	padding: 0;
-	color: white;
+	color: #333; /* Match the text color with Categories.css */
 	align-self: flex-end;
-}
-
-.jh-cart-closed {
+  }
+  
+  .jh-cart-closed {
 	padding: 32px;
 	width: 300px;
-}
-
-.jh-cart-closed > button {
-	color: black;
-}
+	background-color: #f9f9f9; /* Match the background color with Categories.css */
+	border: 2px solid #4CAF50; /* Match the border color with Categories.css */
+	border-radius: 5px;
+  }
+  
+  .jh-cart-closed > button {
+	color: #333; /* Match the text color with Categories.css */
+  }
+  .jh-cart {
+	color: #333; /* Match the text color with Categories.css */
+	background-color: #f9f9f9; /* Match the background color with Categories.css */
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+	border: 2px solid #4CAF50; /* Match the border color with Categories.css */
+	border-radius: 5px;
+  }
+  
+  .jh-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50; /* Match the button background color with Categories.css */
+	color: #fff; /* Match the button text color with Categories.css */
+	font-size: 16px;
+  }
+  
+  .jh-cart-add-button:hover {
+	background-color: #45a049; /* Match the button hover color with Categories.css */
+  }
+  
+  .jh-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: #333; /* Match the text color with Categories.css */
+	align-self: flex-end;
+  }
+  
+  .jh-cart-closed {
+	padding: 32px;
+	width: 300px;
+	background-color: #f9f9f9; /* Match the background color with Categories.css */
+	border: 2px solid #4CAF50; /* Match the border color with Categories.css */
+	border-radius: 5px;
+  }
+  
+  .jh-cart-closed > button {
+	color: #333; /* Match the text color with Categories.css */
+  }
+  
+  .jh-cart-clear-button {
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50; /* Match the button background color with Categories.css */
+	color: #fff; /* Match the button text color with Categories.css */
+	font-size: 16px;
+	margin-top: 10px;
+  }
+  
+  .jh-cart-clear-button:hover {
+	background-color: #45a049; /* Match the button hover color with Categories.css */
+  }

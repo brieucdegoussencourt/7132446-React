@@ -8,7 +8,7 @@ function Cart({ cart, updateCart }) {
     0
   )
   useEffect(() => {
-    document.title = `LMJ: ${total}€ in purchases`
+    document.title = `React App Web Shop`
   }, [total])
 
   return isOpen ? (
@@ -30,7 +30,7 @@ function Cart({ cart, updateCart }) {
             ))}
           </ul>
           <h3>Total :{total}€</h3>
-          <button onClick={() => updateCart([])}>Clear Basket</button>
+          <button  className='jh-cart-clear-button' onClick={() => updateCart([])}>Clear Basket</button>
         </div>
       ) : (
         <div>Your basket is empty.</div>
